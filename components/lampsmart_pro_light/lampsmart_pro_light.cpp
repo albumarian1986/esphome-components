@@ -144,6 +144,7 @@ void LampSmartProLight::dump_config() {
 
 void LampSmartProLight::on_pair() {
   ESP_LOGD(TAG, "LampSmartProLight::on_pair called! %CMD_PAIR: ", CMD_PAIR);
+  ESP_LOGD(TAG, "LampSmartProLight::CMD_PAIR: ");
   send_packet(CMD_PAIR, 0, 0);
 }
 
