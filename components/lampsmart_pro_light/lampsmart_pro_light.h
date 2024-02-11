@@ -4,7 +4,7 @@
 #include "esphome/components/api/custom_api_device.h"
 #include "esphome/components/light/light_output.h"
 
-#define CMD_PAIR (0x218)
+#define CMD_PAIR (0x2018)
 #define CMD_UNPAIR (0x45)
 #define CMD_TURN_ON (0x10)
 #define CMD_TURN_OFF (0x11)
